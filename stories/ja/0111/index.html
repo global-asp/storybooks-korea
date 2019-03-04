@@ -76,7 +76,7 @@
 				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/ja/0111/mp3/01.mp3"></audio>
 				<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-				<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+				<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 			</div>
 		</h1>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-korea/css/pencil.svg" alt="Written by" width="38px"></span> Basilio Gimo, David Ker</h3>
@@ -85,6 +85,7 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-korea/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-korea/stories/ja">Japanese</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-korea/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-korea/stories/ja/level2">Level 2</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-korea/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/ja/0111/ja-0111_hippos.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -110,7 +111,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -138,7 +139,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -168,7 +169,7 @@ Rabbit started screaming at Hippo, "You Hippo! Can't you see that you're steppin
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -198,7 +199,7 @@ But Rabbit wouldn't listen and he shouted at Hippo, "You did that on purpose! So
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -228,7 +229,7 @@ Fire answered, "No problem, Rabbit, my friend. I'll do just what you ask."
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -238,7 +239,7 @@ Fire answered, "No problem, Rabbit, my friend. I'll do just what you ask."
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0111/07.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	その後、カバが川から遠く離れた場所で、草を食べていると「ビュン!」火がつき炎が上がりました。炎はカバの毛を燃やし始めました。
+	その後、カバが川から遠く離れた場所で、草を食べていると「ビュン！」火がつき炎が上がりました。炎はカバの毛を燃やし始めました。
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -256,7 +257,7 @@ Fire answered, "No problem, Rabbit, my friend. I'll do just what you ask."
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -286,7 +287,7 @@ Hippo kept crying, "My hair has burned in the fire! My hair is all gone! My beau
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -316,7 +317,7 @@ And to this day, for fear of fire, the hippo never goes far from the water.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 

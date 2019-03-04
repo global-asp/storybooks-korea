@@ -76,7 +76,7 @@
 				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/de/0337/mp3/01.mp3"></audio>
 				<button onclick="switchlang('de,ko','ko,en,de')" class="btn btn-lg lang-primary" title="Switch between German and Korean">ko</button>
-				<button onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
+				<button style="display:none" onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
 			</div>
 		</h1>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-korea/css/pencil.svg" alt="Written by" width="38px"></span> Southern African Folktale</h3>
@@ -86,6 +86,7 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-korea/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-korea/stories/de">German</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-korea/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-korea/stories/de/level2">Level 2</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-korea/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/de/0337/de-0337_wax.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -113,7 +114,7 @@ family.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('de,ko','ko,en,de')" class="btn btn-lg lang-primary" title="Switch between German and Korean">ko</button>
-		<button onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
+		<button style="display:none" onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
 	</div>
 </div>
 
@@ -144,7 +145,7 @@ and in the fields.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('de,ko','ko,en,de')" class="btn btn-lg lang-primary" title="Switch between German and Korean">ko</button>
-		<button onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
+		<button style="display:none" onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
 	</div>
 </div>
 
@@ -174,7 +175,7 @@ fire.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('de,ko','ko,en,de')" class="btn btn-lg lang-primary" title="Switch between German and Korean">ko</button>
-		<button onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
+		<button style="display:none" onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
 	</div>
 </div>
 
@@ -205,7 +206,7 @@ Because they were made of wax!
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('de,ko','ko,en,de')" class="btn btn-lg lang-primary" title="Switch between German and Korean">ko</button>
-		<button onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
+		<button style="display:none" onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
 	</div>
 </div>
 
@@ -235,7 +236,7 @@ sunlight.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('de,ko','ko,en,de')" class="btn btn-lg lang-primary" title="Switch between German and Korean">ko</button>
-		<button onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
+		<button style="display:none" onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
 	</div>
 </div>
 
@@ -265,7 +266,7 @@ brothers warned him...
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('de,ko','ko,en,de')" class="btn btn-lg lang-primary" title="Switch between German and Korean">ko</button>
-		<button onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
+		<button style="display:none" onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
 	</div>
 </div>
 
@@ -295,7 +296,7 @@ sun.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('de,ko','ko,en,de')" class="btn btn-lg lang-primary" title="Switch between German and Korean">ko</button>
-		<button onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
+		<button style="display:none" onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
 	</div>
 </div>
 
@@ -325,7 +326,7 @@ brother melting away.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('de,ko','ko,en,de')" class="btn btn-lg lang-primary" title="Switch between German and Korean">ko</button>
-		<button onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
+		<button style="display:none" onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
 	</div>
 </div>
 
@@ -356,7 +357,7 @@ bird.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('de,ko','ko,en,de')" class="btn btn-lg lang-primary" title="Switch between German and Korean">ko</button>
-		<button onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
+		<button style="display:none" onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
 	</div>
 </div>
 
@@ -386,7 +387,7 @@ mountain.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('de,ko','ko,en,de')" class="btn btn-lg lang-primary" title="Switch between German and Korean">ko</button>
-		<button onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
+		<button style="display:none" onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
 	</div>
 </div>
 
@@ -416,7 +417,7 @@ the morning light.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('de,ko','ko,en,de')" class="btn btn-lg lang-primary" title="Switch between German and Korean">ko</button>
-		<button onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
+		<button style="display:none" onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
 	</div>
 </div>
 

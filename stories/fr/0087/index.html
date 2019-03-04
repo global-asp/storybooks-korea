@@ -76,7 +76,7 @@
 				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fr/0087/mp3/01.mp3"></audio>
 				<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-				<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+				<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 			</div>
 		</h1>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-korea/css/pencil.svg" alt="Written by" width="38px"></span> Letta Machoga</h3>
@@ -86,6 +86,7 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-korea/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-korea/stories/fr">French</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-korea/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-korea/stories/fr/level1">Level 1</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-korea/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0087/fr-0087_read.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -111,7 +112,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -121,7 +122,8 @@
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0087/03.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt def"><h3>
-	À qui puis je faire la lecture&nbsp;?
+	À qui puis je faire la
+lecture&nbsp;?
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
@@ -139,7 +141,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -149,7 +151,8 @@
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0087/04.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt def"><h3>
-	Ma sœur est en train de dormir.
+	Ma sœur est en train de
+dormir.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
@@ -167,7 +170,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -177,7 +180,8 @@
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0087/05.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt def"><h3>
-	À qui puis je faire la lecture&nbsp;?
+	À qui puis je faire la
+lecture&nbsp;?
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
@@ -195,7 +199,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -205,7 +209,8 @@
 <div id="text06" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0087/06.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt def"><h3>
-	Ma mère et ma grand mère sont occupées.
+	Ma mère et ma grand
+mère sont occupées.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
@@ -224,7 +229,7 @@ grandmother are busy.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -234,7 +239,8 @@ grandmother are busy.
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0087/07.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt def"><h3>
-	À qui puis je faire la lecture&nbsp;?
+	À qui puis je faire la
+lecture&nbsp;?
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
@@ -252,7 +258,7 @@ grandmother are busy.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -262,7 +268,8 @@ grandmother are busy.
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0087/08.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt def"><h3>
-	Mon père et mon grand père sont occupés.
+	Mon père et mon grand
+père sont occupés.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
@@ -281,7 +288,7 @@ grandfather are busy.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -291,7 +298,10 @@ grandfather are busy.
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0087/09.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt def"><h3>
-	À qui puis je faire la lecture&nbsp;? Je peux faire la lecture… à moi même&nbsp;!
+	À qui puis je faire la
+lecture&nbsp;?
+Je peux faire la
+lecture… à moi même&nbsp;!
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level1-txt l1"><h3>
@@ -310,7 +320,7 @@ read to myself!
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 

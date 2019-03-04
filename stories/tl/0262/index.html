@@ -76,7 +76,7 @@
 				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/tl/0262/mp3/01.mp3"></audio>
 				<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-				<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+				<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 			</div>
 		</h1>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-korea/css/pencil.svg" alt="Written by" width="38px"></span> Lesley Koyi</h3>
@@ -86,6 +86,7 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-korea/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-korea/stories/tl">Tagalog</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-korea/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-korea/stories/tl/level5">Level 5</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-korea/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/tl/0262/tl-0262_magozwe.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -115,7 +116,7 @@ Among the group of boys was Magozwe. He was the youngest.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 
@@ -143,7 +144,7 @@ Among the group of boys was Magozwe. He was the youngest.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 
@@ -173,7 +174,7 @@ After three years of this treatment Magozwe ran away from his uncle. He started 
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 
@@ -205,7 +206,7 @@ Life was even more difficult because of fights with rival groups who wanted cont
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 
@@ -235,7 +236,7 @@ Every day after that he would take out the book and look at the pictures. He did
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 
@@ -265,7 +266,7 @@ Magozwe would daydream of being a pilot. Sometimes, he imagined that he was the 
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 
@@ -297,7 +298,7 @@ Magozwe looked at the man, and then at the house. "Maybe," he said, and walked a
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 
@@ -327,7 +328,7 @@ Thomas listened to the stories of people's lives. He was serious and patient, ne
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 
@@ -363,7 +364,7 @@ Thomas listened to the stories of people's lives. He was serious and patient, ne
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 
@@ -395,7 +396,7 @@ Sometimes they would talk while they ate at the house with the blue roof.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 
@@ -425,7 +426,7 @@ Thomas read that story to Magozwe many times, until one day he said, "I think it
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 
@@ -455,7 +456,7 @@ What if they beat him at this new place? He was afraid. "Maybe it is better to s
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 
@@ -483,7 +484,7 @@ What if they beat him at this new place? He was afraid. "Maybe it is better to s
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 
@@ -513,7 +514,7 @@ Altogether there were ten children living at that house. Along with Auntie Cissy
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 
@@ -543,7 +544,7 @@ But he thought about the pilot and the soccer player in the storybooks. Like the
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 
@@ -580,7 +581,7 @@ But he thought about the pilot and the soccer player in the storybooks. Like the
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
-		<button onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
+		<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 	</div>
 </div>
 

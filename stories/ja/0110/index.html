@@ -76,7 +76,7 @@
 				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/ja/0110/mp3/01.mp3"></audio>
 				<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-				<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+				<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 			</div>
 		</h1>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-korea/css/pencil.svg" alt="Written by" width="38px"></span> Nicola Rijsdijk</h3>
@@ -85,6 +85,7 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-korea/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-korea/stories/ja">Japanese</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-korea/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-korea/stories/ja/level3">Level 3</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-korea/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/ja/0110/ja-0110_wangari.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -111,7 +112,7 @@ fields with her mother. Her name was Wangari.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -140,7 +141,7 @@ with her machete. She pressed tiny seeds into the warm earth.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -170,7 +171,7 @@ She would follow the narrow paths through the fields, crossing rivers as she wen
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -201,7 +202,7 @@ go to school.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -232,7 +233,7 @@ Wangari was excited! She wanted to know more about the world.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -262,7 +263,7 @@ brothers in the shade of the trees in the beautiful Kenyan forests.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -292,7 +293,7 @@ The more she learnt, the more she remembered her African home.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -323,7 +324,7 @@ children were hungry.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -354,7 +355,7 @@ strong.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -384,7 +385,7 @@ Today, millions of trees have grown from Wangari's seeds.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -418,7 +419,7 @@ receive it.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 
@@ -446,7 +447,7 @@ receive it.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('ja,ko','ko,en,ja')" class="btn btn-lg lang-primary" title="Switch between Japanese and Korean">ko</button>
-		<button onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
+		<button style="display:none" onclick="switchlang('ja,en','ko,en,ja')" class="btn btn-lg lang-secondary" title="Switch between Japanese and English">en</button>
 	</div>
 </div>
 

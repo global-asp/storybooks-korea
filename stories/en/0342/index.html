@@ -76,7 +76,7 @@
 				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/en/0342/mp3/01.mp3"></audio>
 				<button onclick="switchlang('en,ko','ko,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Korean">ko</button>
-				<button onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+				<button style="display:none" onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
 			</div>
 		</h1>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-korea/css/pencil.svg" alt="Written by" width="38px"></span> Adelheid Marie Bwire</h3>
@@ -85,6 +85,7 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-korea/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-korea/stories/en">English</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-korea/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-korea/stories/en/level2">Level 2</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-korea/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/en/0342/en-0342_punishment.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -112,7 +113,7 @@ lot of fruit.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,ko','ko,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Korean">ko</button>
-		<button onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button style="display:none" onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
 	</div>
 </div>
 
@@ -146,7 +147,7 @@ tonight," says mama.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,ko','ko,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Korean">ko</button>
-		<button onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button style="display:none" onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
 	</div>
 </div>
 
@@ -178,7 +179,7 @@ fruit. He eats a lot of it.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,ko','ko,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Korean">ko</button>
-		<button onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button style="display:none" onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
 	</div>
 </div>
 
@@ -214,7 +215,7 @@ say.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,ko','ko,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Korean">ko</button>
-		<button onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button style="display:none" onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
 	</div>
 </div>
 
@@ -244,7 +245,7 @@ Rahim.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,ko','ko,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Korean">ko</button>
-		<button onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button style="display:none" onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
 	</div>
 </div>
 
@@ -276,7 +277,7 @@ sorry.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,ko','ko,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Korean">ko</button>
-		<button onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button style="display:none" onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
 	</div>
 </div>
 
@@ -308,7 +309,7 @@ little brother.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,ko','ko,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Korean">ko</button>
-		<button onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button style="display:none" onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
 	</div>
 </div>
 
@@ -338,7 +339,7 @@ be sorry," warns mama.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,ko','ko,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Korean">ko</button>
-		<button onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button style="display:none" onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
 	</div>
 </div>
 
@@ -368,7 +369,7 @@ sick.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,ko','ko,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Korean">ko</button>
-		<button onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button style="display:none" onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
 	</div>
 </div>
 
@@ -398,7 +399,7 @@ whispers Rahim.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,ko','ko,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Korean">ko</button>
-		<button onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button style="display:none" onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
 	</div>
 </div>
 
@@ -430,7 +431,7 @@ punishing Rahim!
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,ko','ko,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Korean">ko</button>
-		<button onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button style="display:none" onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
 	</div>
 </div>
 
@@ -466,7 +467,7 @@ believe him.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('en,ko','ko,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Korean">ko</button>
-		<button onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		<button style="display:none" onclick="switchlang('en,en','ko,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
 	</div>
 </div>
 

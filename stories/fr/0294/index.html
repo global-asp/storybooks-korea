@@ -76,7 +76,7 @@
 				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fr/0294/mp3/01.mp3"></audio>
 				<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-				<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+				<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 			</div>
 		</h1>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-korea/css/pencil.svg" alt="Written by" width="38px"></span> Ursula Nafula</h3>
@@ -86,6 +86,7 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-korea/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-korea/stories/fr">French</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-korea/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-korea/stories/fr/level4">Level 4</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-korea/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0294/fr-0294_grandma.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -93,7 +94,19 @@
 <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
-	Le jardin de grand-mère était merveilleux – plein de sorgho, de millet et de manioc. Mais le meilleur de tout, c’était les bananes. Bien que grand-mère avait beaucoup de petits-enfants, je savais que secrètement j’étais sa préférée. Elle m’invitait souvent dans sa maison. Elle partageait avec moi ses petits secrets. Mais il y avait une chose qu’elle gardait secrète&nbsp;: L’endroit où elle faisait murir les bananes.
+	Le jardin de grand-mère était
+merveilleux – plein de sorgho, de
+millet et de manioc. Mais le meilleur
+de tout, c’était les bananes.
+Bien que grand-mère avait
+beaucoup de petits-enfants, je
+savais que secrètement j’étais sa
+préférée. Elle m’invitait souvent
+dans sa maison. Elle partageait
+avec moi ses petits secrets.
+Mais il y avait une chose qu’elle
+gardait secrète&nbsp;: L’endroit où elle
+faisait murir les bananes.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
@@ -117,7 +130,7 @@ But there was one secret she did not share with me: where she ripened bananas.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -127,7 +140,20 @@ But there was one secret she did not share with me: where she ripened bananas.
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/03.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
-	Un jour, je vis un grand panier de paille placé au soleil devant la maison de grand-mère. Quand je lui ai demandé à quoi il servait, pour seule réponse, elle me dit&nbsp;: «&nbsp;C’est mon panier magique.&nbsp;» A côté du panier, il y avait plusieurs feuilles de bananier que grand-mère retournait de temps en temps. J’étais curieuse. «&nbsp;A quoi servent ces feuilles, grand-mère&nbsp;?&nbsp;» demandai-je. Mais pour seule réponse, elle me dit&nbsp;: «&nbsp;Ce sont mes feuilles magiques.&nbsp;»
+	Un jour, je vis un grand panier de
+paille placé au soleil devant la
+maison de grand-mère. Quand je lui
+ai demandé à quoi il servait, pour
+seule réponse, elle me dit&nbsp;: «&nbsp;C’est
+mon panier magique.&nbsp;» A côté du
+panier, il y avait plusieurs feuilles
+de bananier que grand-mère
+retournait de temps en temps.
+J’étais curieuse. «&nbsp;A quoi servent ces
+feuilles, grand-mère&nbsp;?&nbsp;» demandai-je.
+Mais pour seule réponse, elle me
+dit&nbsp;: «&nbsp;Ce sont mes feuilles
+magiques.&nbsp;»
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
@@ -147,7 +173,7 @@ Next to the basket, there were several banana leaves that Grandma turned from ti
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -157,7 +183,16 @@ Next to the basket, there were several banana leaves that Grandma turned from ti
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/04.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
-	C’était fascinant de regarder grand-mère, les bananes, les feuilles de bananier et le grand panier de paille. Mais grand-mère m’envoya retrouver maman pour aller chercher quelque-chose. «&nbsp;Grand-mère, s’il te plaît, laisse-moi regarder ce que tu prépares… «&nbsp;Ne sois pas têtue, petite, fais ce que je te demande&nbsp;» insista-t-elle. Je partis donc en courant.
+	C’était fascinant de regarder grand-mère, les bananes, les feuilles de
+bananier et le grand panier de
+paille. Mais grand-mère m’envoya
+retrouver maman pour aller
+chercher quelque-chose.
+«&nbsp;Grand-mère, s’il te plaît, laisse-moi
+regarder ce que tu prépares…&nbsp;»
+«&nbsp;Ne sois pas têtue, petite, fais ce
+que je te demande&nbsp;» insista-t-elle. Je
+partis donc en courant.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
@@ -179,7 +214,7 @@ Next to the basket, there were several banana leaves that Grandma turned from ti
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -189,7 +224,14 @@ Next to the basket, there were several banana leaves that Grandma turned from ti
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/05.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
-	A mon retour, grand-mère était assise dehors, mais il n’y avait plus ni panier, ni bananes. «&nbsp;Grand-mère, où est le panier, où sont toutes les bananes, et où est … «&nbsp;Mais pour seule réponse, elle me dit&nbsp;: «&nbsp;Ils sont dans mon lieu magique.&nbsp;» J’étais très déçue.
+	A mon retour, grand-mère était
+assise dehors, mais il n’y avait plus
+ni panier, ni bananes.
+«&nbsp;Grand-mère, où est le panier, où
+sont toutes les bananes, et où est …
+«&nbsp;Mais pour seule réponse, elle me
+dit&nbsp;: «&nbsp;Ils sont dans mon lieu
+magique.&nbsp;» J’étais très déçue.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
@@ -211,7 +253,7 @@ But the only answer I got was, "They are in my magic place." It was so disappoin
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -221,7 +263,17 @@ But the only answer I got was, "They are in my magic place." It was so disappoin
 <div id="text06" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/06.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
-	Deux jours plus tard, grand-mère m’envoya dans sa chambre chercher son bâton de marche. Dès que j’ouvris la porte, je fus accueilli par une forte odeur de bananes mures. Au milieu de la pièce, se trouvait le grand panier magique de grand-mère. Il était bien caché sous une vieille couverture. Je la soulevai et reniflai cette odeur extraordinaire.
+	Deux jours plus tard, grand-mère
+m’envoya dans sa chambre
+chercher son bâton de marche.
+Dès que j’ouvris la porte, je fus
+accueilli par une forte odeur de
+bananes mures. Au milieu de la
+pièce, se trouvait le grand panier
+magique de grand-mère. Il était
+bien caché sous une vieille
+couverture. Je la soulevai et reniflai
+cette odeur extraordinaire.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
@@ -241,7 +293,7 @@ As soon as I opened the door, I was welcomed by the strong smell of ripening ban
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -251,7 +303,17 @@ As soon as I opened the door, I was welcomed by the strong smell of ripening ban
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/07.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
-	La voix de grand-mère me fit sursauter quand elle appela, «&nbsp;Que fais-tu&nbsp;? Dépêche-toi de m’apporter mon bâton&nbsp;». Je me suis alors précipitée avec sa canne. «&nbsp;Qu’est-ce qui te fait sourire&nbsp;?&nbsp;» demanda grand-mère. Sa question me fit réaliser que je souriais encore en pensant à la découverte de son lieu magique.
+	La voix de grand-mère me fit
+sursauter quand elle appela, «&nbsp;Que
+fais-tu&nbsp;? Dépêche-toi de m’apporter
+mon bâton&nbsp;».
+Je me suis alors précipitée avec sa
+canne.
+«&nbsp;Qu’est-ce qui te fait sourire&nbsp;?&nbsp;»
+demanda grand-mère. Sa question
+me fit réaliser que je souriais
+encore en pensant à la découverte
+de son lieu magique.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
@@ -273,7 +335,7 @@ Her question made me realise that I was still smiling at the discovery of her ma
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -283,7 +345,18 @@ Her question made me realise that I was still smiling at the discovery of her ma
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/08.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
-	Le lendemain, lorsque grand-mère est venue rendre visite à maman, je me suis précipitée chez elle pour regarder les bananes une fois de plus. Il y en avait plusieurs, qui étaient déjà très mûres. J’en pris une, que je cachai sous ma robe. Après avoir recouvert le panier, je me rendis derrière la maison pour la manger en vitesse. C’était la banane la plus douce que je n’avais jamais goûtée.
+	Le lendemain, lorsque grand-mère
+est venue rendre visite à maman, je
+me suis précipitée chez elle pour
+regarder les bananes une fois de
+plus.
+Il y en avait plusieurs, qui étaient
+déjà très mûres. J’en pris une, que
+je cachai sous ma robe. Après avoir
+recouvert le panier, je me rendis
+derrière la maison pour la manger
+en vitesse. C’était la banane la plus
+douce que je n’avais jamais goûtée.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
@@ -303,7 +376,7 @@ There was a bunch of very ripe ones. I picked one and hid it in my dress. After 
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -313,7 +386,20 @@ There was a bunch of very ripe ones. I picked one and hid it in my dress. After 
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/09.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
-	Le lendemain, alors que grand-mère était dans le jardin en train de ramasser des légumes, je me suis glissée dans sa chambre pour regarder les bananes. Elles étaient presque toutes mûres. Je n’ai pas pu résister, et pris quatre autres bananes. Alors que je marchais sur la pointe des pieds vers la porte, j’entendis grand-mère tousser dehors. J’eus juste le temps de cacher les bananes sous ma robe avant de passer devant elle en m’éloignant.
+	Le lendemain, alors que grand-mère
+était dans le jardin en train de
+ramasser des légumes, je me suis
+glissée dans sa chambre pour
+regarder les bananes. Elles étaient
+presque toutes mûres. Je n’ai pas
+pu résister, et pris quatre autres
+bananes. Alors que je marchais sur
+la pointe des pieds vers la porte,
+j’entendis grand-mère tousser
+dehors. J’eus juste le temps de
+cacher les bananes sous ma robe
+avant de passer devant elle en
+m’éloignant.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
@@ -335,7 +421,7 @@ As I tiptoed towards the door, I heard grandma coughing outside. I just managed 
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -345,7 +431,16 @@ As I tiptoed towards the door, I heard grandma coughing outside. I just managed 
 <div id="text10" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/10.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
-	Le lendemain, c’était le jour du marché. Grand-mère se réveilla très tôt. Elle prenait toujours du manioc et des bananes mûres pour les vendre sur le marché. Ce jour-là, je ne me suis pas dépêchée pour aller lui rendre visite. Mais je n’allais pas pouvoir l’éviter bien longtemps.
+	Le lendemain, c’était le jour du
+marché.
+Grand-mère se réveilla très tôt.
+Elle prenait toujours du manioc et
+des bananes mûres pour les vendre
+sur le marché.
+Ce jour-là, je ne me suis pas
+dépêchée pour aller lui rendre
+visite. Mais je n’allais pas pouvoir
+l’éviter bien longtemps.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
@@ -365,7 +460,7 @@ I did not hurry to visit her that day. But I could not avoid her for long.
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -375,7 +470,13 @@ I did not hurry to visit her that day. But I could not avoid her for long.
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0294/11.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
-	Plus tard ce soir-là, ma mère, mon père et grand-mère m’ont appelée. Je savais pourquoi. Cette nuit là quand je me suis couchée, je savais que je ne pourrai plus jamais voler, ni ma grand-mère, ni mes parents, ni qui que ce soit d’autres.
+	Plus tard ce soir-là, ma mère, mon
+père et grand-mère m’ont appelée.
+Je savais pourquoi.
+Cette nuit là quand je me suis
+couchée, je savais que je ne pourrai
+plus jamais voler, ni ma grand-mère, ni mes parents, ni qui que ce
+soit d’autres.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
@@ -395,7 +496,7 @@ That night as I lay down to sleep, I knew I could never steal again, not from gr
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 

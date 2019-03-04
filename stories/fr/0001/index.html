@@ -76,7 +76,7 @@
 				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fr/0001/mp3/01.mp3"></audio>
 				<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-				<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+				<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 			</div>
 		</h1>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-korea/css/pencil.svg" alt="Written by" width="38px"></span> Cornelius Gulere</h3>
@@ -86,6 +86,7 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-korea/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-korea/stories/fr">French</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-korea/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-korea/stories/fr/level2">Level 2</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-korea/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0001/fr-0001_tall.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -93,7 +94,8 @@
 <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Sa houe était trop courte.
+	Sa houe était trop
+courte.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -111,7 +113,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -121,7 +123,8 @@
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/03.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Sa porte d’entrée était trop basse.
+	Sa porte d’entrée était
+trop basse.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -139,7 +142,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -167,7 +170,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -177,7 +180,8 @@
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/05.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Sa bicyclette était trop petite.
+	Sa bicyclette était trop
+petite.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -195,7 +199,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -205,7 +209,8 @@
 <div id="text06" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/06.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Cet homme était trop grand.
+	Cet homme était trop
+grand.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -223,7 +228,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -233,7 +238,8 @@
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/07.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Il fabriqua un long manche pour sa houe.
+	Il fabriqua un long
+manche pour sa houe.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -251,7 +257,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -279,7 +285,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -289,7 +295,8 @@
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/09.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Il fabriqua un très grand lit.
+	Il fabriqua un très grand
+lit.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -307,7 +314,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -317,7 +324,8 @@
 <div id="text10" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/10.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Il acheta une bicyclette très haute.
+	Il acheta une bicyclette
+très haute.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -335,7 +343,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -345,7 +353,10 @@
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/11.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Il s’assit sur une chaise très haute et mangea avec une très grande fourchette.
+	Il s’assit sur une chaise
+très haute et mangea
+avec une très grande
+fourchette.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -363,7 +374,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
@@ -373,7 +384,11 @@
 <div id="text12" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0001/12.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Il quitta sa maison et vécut dans une grande forêt. Il vécut pendant de longues années.
+	Il quitta sa maison et
+vécut dans une grande
+forêt.
+Il vécut pendant de
+longues années.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -391,7 +406,7 @@
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('fr,ko','ko,en,fr')" class="btn btn-lg lang-primary" title="Switch between French and Korean">ko</button>
-		<button onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
+		<button style="display:none" onclick="switchlang('fr,en','ko,en,fr')" class="btn btn-lg lang-secondary" title="Switch between French and English">en</button>
 	</div>
 </div>
 
