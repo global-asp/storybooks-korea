@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Korea is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in Korean and English, as well as the most widely spoken languages of Korea.
 ">
 	<link rel="stylesheet" href="/storybooks-korea/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-korea/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-korea/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-korea/stories/tl/0066/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Korea" href="/storybooks-korea">
 	<script src="/storybooks-korea/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -75,18 +78,18 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/tl/0066/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-korea/audio/tl/0066/mp3/01.mp3"></audio>
 			<button onclick="switchlang('tl,ko','ko,en,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and Korean">ko</button>
 			<button style="display:none" onclick="switchlang('tl,en','ko,en,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and English">en</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-korea/css/pencil.svg" alt="Written by"></span> Tessa Welch</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-korea/css/art.svg" alt="Illustrated by"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-korea/css/global.svg" alt="Translated by"></span> Arlene Avila</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon" src="/storybooks-korea/css/megaphone.svg" alt="Read by"></span> La Trinidad Mina</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-korea/css/language.svg" alt="Language"></span> <a href="/storybooks-korea/stories/tl">Tagalog</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-korea/css/level.svg" alt="Level"></span> <a href="/storybooks-korea/stories/tl/level3">Level 3</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-korea/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/tl/0066/tl-0066_nozibele.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-korea/css/pencil.svg" alt="Written by"></span> Tessa Welch</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-korea/css/art.svg" alt="Illustrated by"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-korea/css/global.svg" alt="Translated by"></span> Arlene Avila</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon cover-icon-text" src="/storybooks-korea/css/megaphone.svg" alt="Read by"></span> La Trinidad Mina</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-korea/css/language.svg" alt="Language"></span> <a href="/storybooks-korea/stories/tl">Tagalog</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-korea/css/level.svg" alt="Level"></span> <a href="/storybooks-korea/stories/tl/level3">Level 3</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-audio" src="/storybooks-korea/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="/0066/tl-0066_nozibele.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -280,9 +283,7 @@ at the door.
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/08.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	Bumukas ang pinto at nagulat siya sa nakita. Isang asong nagsasalita! “Anong kailangan mo?”
-“Nawawala ako at kailangan ko ng matutuluyan,” sagot ni Nozibele.
-“Tuloy ka at baka kita kagatin!” sabi ng aso, kaya pumasok si Nozibele.
+	Bumukas ang pinto at nagulat siya sa nakita. Isang asong nagsasalita! “Anong kailangan mo?” “Nawawala ako at kailangan ko ng matutuluyan,” sagot ni Nozibele. “Tuloy ka at baka kita kagatin!” sabi ng aso, kaya pumasok si Nozibele.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -316,9 +317,7 @@ So Nozibele went in.
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/09.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	“Ipagluto mo ako!” utos ng aso.
-“Hindi ako marunong magluto,” sagot ni Nozibele.
-“Kung hindi ka magluluto, kakagatin kita!” Kaya nagluto si Nozibele ng makakain ng aso.
+	“Ipagluto mo ako!” utos ng aso. “Hindi ako marunong magluto,” sagot ni Nozibele. “Kung hindi ka magluluto, kakagatin kita!” Kaya nagluto si Nozibele ng makakain ng aso.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -351,9 +350,7 @@ the dog.
 <div id="text10" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/10.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	“Ayusin mo ang kama ko!” utos ng aso.
-“Hindi ko alam kung paano ayusin ang kama para sa isang aso,” sagot ni Nozibele.
-“Kung ayaw mong ayusin ang kama ko, kakagatin kita!” banta ng aso. Kaya inayos ni Nozibele ang kama nito.
+	“Ayusin mo ang kama ko!” utos ng aso. “Hindi ko alam kung paano ayusin ang kama para sa isang aso,” sagot ni Nozibele. “Kung ayaw mong ayusin ang kama ko, kakagatin kita!” banta ng aso. Kaya inayos ni Nozibele ang kama nito.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -387,12 +384,11 @@ So Nozibele made the bed.
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/11.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	Araw-araw, nagluluto, naglilinis at naglalaba si Nozibele para sa aso.
-“Sasaglit lang ako sa mga kaibigan ko. Pagbalik ko, dapat tapos ka na maglinis, magluto at maglaba.”
+	Araw-araw, nagluluto, naglilinis at naglalaba si Nozibele para sa aso. “Sasaglit lang ako sa mga kaibigan ko. Pagbalik ko, dapat tapos ka na maglinis, magluto at maglaba.”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	매일 개를 위해 그녀는 요리하고 쓸고 닦았어요. 어느 날 개가 “노지벨레, 난 오늘 친구들을 만나러 가야해. 내가 오기 전에 집을 쓸고, 음식을 만들고, 내 물건을 닦아놔.”라고 말했어요.
+	매일 개를 위해 그녀는 요리하고 쓸고 닦았어요. 어느 날 개가 “노지벨레, 난 오늘 친구들을 만나러 가야해. 내가 오기 전에 집을 쓸고, 음식을 만들고, 내 물건을 닦아놔.” 라고 말했어요.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	Every day she had to cook and
@@ -457,10 +453,7 @@ could.
 <div id="text13" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/13.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-	Pagbalik ng aso, hinanap niya si Nozibele. “Asan ka, Nozibele?”
-“Andito ako sa ilalim ng kama,” sabi ng unag hibla.
-“Andito ako sa likod ng pinto,” sabi ng ikalawa.
-“Andito ako sa kural,” sabi ng ikatlo.
+	Pagbalik ng aso, hinanap niya si Nozibele. “Asan ka, Nozibele?” “Andito ako sa ilalim ng kama,” sabi ng unag hibla. “Andito ako sa likod ng pinto,” sabi ng ikalawa. “Andito ako sa kural,” sabi ng ikatlo.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -558,6 +551,8 @@ has never been seen since.
 	<a class="btn btn-lg" href="/storybooks-korea/stories/tl" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 

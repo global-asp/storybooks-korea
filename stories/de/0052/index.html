@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Korea is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in Korean and English, as well as the most widely spoken languages of Korea.
 ">
 	<link rel="stylesheet" href="/storybooks-korea/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-korea/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-korea/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-korea/stories/de/0052/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Korea" href="/storybooks-korea">
 	<script src="/storybooks-korea/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -75,18 +78,18 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/de/0052/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-korea/audio/de/0052/mp3/01.mp3"></audio>
 			<button onclick="switchlang('de,ko','ko,en,de')" class="btn btn-lg lang-primary" title="Switch between German and Korean">ko</button>
 			<button style="display:none" onclick="switchlang('de,en','ko,en,de')" class="btn btn-lg lang-secondary" title="Switch between German and English">en</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-korea/css/pencil.svg" alt="Written by"></span> Rukia Nantale</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-korea/css/art.svg" alt="Illustrated by"></span> Benjamin Mitchley</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-korea/css/global.svg" alt="Translated by"></span> Anna Westpfahl</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon" src="/storybooks-korea/css/megaphone.svg" alt="Read by"></span> Jula Eberth</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-korea/css/language.svg" alt="Language"></span> <a href="/storybooks-korea/stories/de">German</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-korea/css/level.svg" alt="Level"></span> <a href="/storybooks-korea/stories/de/level5">Level 5</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-korea/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/de/0052/de-0052_simbegwire.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-korea/css/pencil.svg" alt="Written by"></span> Rukia Nantale</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-korea/css/art.svg" alt="Illustrated by"></span> Benjamin Mitchley</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-korea/css/global.svg" alt="Translated by"></span> Anna Westpfahl</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon cover-icon-text" src="/storybooks-korea/css/megaphone.svg" alt="Read by"></span> Jula Eberth</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-korea/css/language.svg" alt="Language"></span> <a href="/storybooks-korea/stories/de">German</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-korea/css/level.svg" alt="Level"></span> <a href="/storybooks-korea/stories/de/level5">Level 5</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-audio" src="/storybooks-korea/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="/0052/de-0052_simbegwire.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -94,7 +97,7 @@
 <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
-	Als ihre Mutter starb, war Simbegwire sehr traurig. Simbewires Vater kümmerte sich so gut er konnte um seine Tochter. Langsam lernten sie, ohne Simbegwires Mutter wieder glücklich zu sein. Jeden Morgen saßen sie zusammen und sprachen über den anstehenden Tag. Jeden Abend bereiteten sie zusammen das Abendessen zu. Nach dem Abwasch half Simbegwires Vater ihr mit den Hausaufgaben.
+	Als ihre Mutter starb, war Simbegwire sehr traurig. Simbegwires Vater kümmerte sich so gut er konnte um seine Tochter. Langsam lernten sie, ohne Simbegwires Mutter wieder glücklich zu sein. Jeden Morgen saßen sie zusammen und sprachen über den anstehenden Tag. Jeden Abend bereiteten sie zusammen das Abendessen zu. Nach dem Abwasch half Simbegwires Vater ihr mit den Hausaufgaben.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
@@ -281,7 +284,7 @@ either.
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/07.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
-	Es wurde schlimmer für Simbegwire. Wenn sie ihre Aufgaben nicht erledigte oder sie sich beschwerte, schlug Anita sie. Und beim Abendessen aß die Frau das meiste Essen, sodass für Simbegwire nur einige Reste übrig blieben. Jeden Abend weinte sich Simbewire mit der Decke ihrer Mutter im Arm in den Schlaf.
+	Es wurde schlimmer für Simbegwire. Wenn sie ihre Aufgaben nicht erledigte oder sie sich beschwerte, schlug Anita sie. Und beim Abendessen aß die Frau das meiste Essen, sodass für Simbegwire nur einige Reste übrig blieben. Jeden Abend weinte sich Simbegwire mit der Decke ihrer Mutter im Arm in den Schlaf.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
@@ -321,7 +324,7 @@ blanket.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	어느 날 아침, 심베그위레는 늦게 일어났어요. “이 게으른 여자애야!”아니타는 소리 쳤어요. 그녀는 침대에서 심베그위레를 끌어 당겼어요. 그 귀중한 담요가 못에 걸려서, 두 조각으로 찢어졌어요.
+	어느 날 아침, 심베그위레는 늦게 일어났어요. “이 게으른 여자애야!” 아니타는 소리 쳤어요. 그녀는 침대에서 심베그위레를 끌어 당겼어요. 그 귀중한 담요가 못에 걸려서, 두 조각으로 찢어졌어요.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
 	One morning, Simbegwire was late
@@ -531,7 +534,7 @@ look after her.
 <div id="text14" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0052/14.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt def"><h3>
-	Als Simbegwires Vater nach Hause kam, fand er ein leeres Zimmer vor. „Was ist passiert, Anita?“ fragte er traurig. Die Frau erklärte, dass Simbewire weggelaufen war. „Ich wollte, dass sie mich respektiert“, sagte sie, „aber vielleicht war ich zu streng.“ Simbegwires Vater ging hinaus und lief in Richtung Fluss. Er lief zum Dorf seiner Schwester, um herauszufinden, ob sie Simbegwire gesehen hatte.
+	Als Simbegwires Vater nach Hause kam, fand er ein leeres Zimmer vor. „Was ist passiert, Anita?“ fragte er traurig. Die Frau erklärte, dass Simbegwire weggelaufen war. „Ich wollte, dass sie mich respektiert“, sagte sie, „aber vielleicht war ich zu streng.“ Simbegwires Vater ging hinaus und lief in Richtung Fluss. Er lief zum Dorf seiner Schwester, um herauszufinden, ob sie Simbegwire gesehen hatte.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
@@ -575,7 +578,7 @@ Simbegwire.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	심베그위레의 아버지가 오고 계실 당시 심베그위레는 그녀의 사촌과 함께 놀고 있었습니다. 그녀는 아버지가 화가 나 있을까봐 무서워서 집으로 달려가 숨었어요. 그러나 그녀의 아버지는 그녀에게 가서 심베그위레, 너는 너의 완벽한 어머니를 너 스스로 찾았어” 라고 말했어요. 너를 사랑하고 너를 이해 하는 사람. 난 너가 자랑스럽고 너를 사랑해.” 그들은 심베그위레가 원하는 만큼 그녀의 이모와 함께 머물 수 있다고 동의 했어요.
+	심베그위레의 아버지가 오고 계실 당시 심베그위레는 그녀의 사촌과 함께 놀고 있었습니다. 그녀는 아버지가 화가 나 있을까봐 무서워서 집으로 달려가 숨었어요. 그러나 그녀의 아버지는 그녀에게 가서 심베그위레, “너는 너의 완벽한 어머니를 너 스스로 찾았어 라고 말했어요. 너를 사랑하고 너를 이해 하는 사람. 난 너가 자랑스럽고 너를 사랑해.” 그들은 심베그위레가 원하는 만큼 그녀의 이모와 함께 머물 수 있다고 동의 했어요.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
 	Simbegwire was playing with her
@@ -708,6 +711,8 @@ her father and her stepmother.
 	<a class="btn btn-lg" href="/storybooks-korea/stories/de" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 
